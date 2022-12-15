@@ -1,7 +1,40 @@
 <html>
     <head>
-        <script>
-            
-        </script>
+        <style>
+            #top-bar {
+                background-color: cadetblue;
+                align-content: center;
+                width: 60%;
+                height: fit-content;
+            }
+            #main-container {
+                background-color:bisque;
+                background-attachment: fixed;
+            }
+
+            #side-bar {
+                background-color: rgb(23, 63, 64);
+                min-width: 40px;
+                width: 20%; 
+                height: 80%;
+            }
+
+            #content-feed {
+                background-color: chocolate;
+            }
+
+            .store-item {border-width: 2px;border-style: solid; background-color: blueviolet;}
+        </style>
     </head>
+    <body>
+        <div id="top-bar">This is the top-bar</div>
+        <div id="main-container">
+            <div id="side-bar"></div>
+            <div id="content-feed">
+                <div class="store-item">asdf</div>
+                <div class="store-item">fdas</div>
+                <div class="store-item">pemdas</div>
+            </div>
+        </div>
+    </body>
 </html>
